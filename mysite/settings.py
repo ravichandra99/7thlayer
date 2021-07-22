@@ -110,7 +110,7 @@ DATABASES = {
         'NAME': 'sampledb',
         'USER': 'justuser',
         'PASSWORD': 'qwerty',
-        'HOST': '10.0.133.90',   # Or an IP Address that your DB is hosted on
+        'HOST': 'mysql-1-sl6tq',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
 }
