@@ -110,8 +110,8 @@ DATABASES = {
         'NAME': 'sampledb',
         'USER': 'justuser',
         'PASSWORD': 'qwerty',
-        #'HOST': 'mysql-1-sl6tq',   # Or an IP Address that your DB is hosted on
-        #'PORT': '3306',
+        'HOST': '',   # Or an IP Address that your DB is hosted on
+        'PORT': '',
     }
 }
 
@@ -156,7 +156,7 @@ STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'assets'),]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'assets'),os.path.join(BASE_DIR, 'home'),]
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
